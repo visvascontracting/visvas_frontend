@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="%PUBLIC_URL%/logo.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#176b87" />
+
+    <!-- Primary SEO Meta Tags -->
+    <title>Clothes Management System | Heartfulness Kanha Shanti Vanam</title>
+    <meta
+      name="description"
+      content="The Clothes Management System at Heartfulness Kanha Shanti Vanam enables seamless collection, management, and distribution of clothes donations. Supporting Admins, Collectors, Distributors, and Volunteers with secure dashboards and real-time inventory tracking."
+    />
+    <meta
+      name="keywords"
+      content="Heartfulness, Kanha Shanti Vanam, Clothes Donation, Clothes Management System, Charity, Volunteer, NGO, Admin Dashboard, Collector, Distributor, Inventory Management"
+    />
+    <meta name="author" content="Heartfulness IT Team" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:title"
+      content="Clothes Management System | Heartfulness Kanha Shanti Vanam"
+    />
+    <meta
+      property="og:description"
+      content="A digital platform to manage and distribute clothes donations at Kanha Shanti Vanam. Empowering Admins, Collectors, and Distributors with role-based dashboards."
+    />
+    <meta property="og:image" content="%PUBLIC_URL%/logo512.png" />
+    <meta property="og:url" content="https://cmsheartfulness.netlify.app/" />
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta
+      name="twitter:title"
+      content="Clothes Management System | Heartfulness Kanha Shanti Vanam"
+    />
+    <meta
+      name="twitter:description"
+      content="Manage and distribute clothes donations with ease at Heartfulness Kanha Shanti Vanam. A secure and user-friendly clothes management platform."
+    />
+    <meta name="twitter:image" content="%PUBLIC_URL%/logo512.png" />
+
+    <!-- Apple Touch Icon -->
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+
+    <!-- PWA Manifest -->
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "NGO",
+      "name": "Heartfulness Clothes Management System",
+      "url": "https://cmsheartfulness.netlify.app/",
+      "logo": "https://cmsheartfulness.netlify.app/logo512.png",
+      "description": "The Clothes Management System at Heartfulness Kanha Shanti Vanam enables seamless collection, management, and distribution of donated clothes.",
+      "sameAs": [
+        "https://www.heartfulness.org",
+        "https://kanha.shanti.org"
+      ]
+    }
+    </script>
+    <style>
+      #splash {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: #ffffff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        z-index: 9999;
+      }
+      .pulse {
+        width: 150px;
+        height: 150px;
+        animation: pulse 1.5s infinite;
+      }
+      @keyframes pulse {
+        0% {
+          transform: scale(1);
+        }
+        50% {
+          transform: scale(1.1);
+        }
+        100% {
+          transform: scale(1);
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+    <div id="splash">
+      <img src="%PUBLIC_URL%/logo512.png" alt="Loading..." class="pulse" />
+    </div>
+  </body>
+</html>
