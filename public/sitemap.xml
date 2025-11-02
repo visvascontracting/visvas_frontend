@@ -1,143 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-        xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
-        http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-
-  <!-- Homepage / Landing Page -->
+<urlset
+  xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml"
+>
   <url>
-    <loc>https://cmsheartfulness.netlify.app/</loc>
-    <lastmod>2025-09-25</lastmod>
-    <priority>1.0</priority>
+    <loc>https://visvascontracting.in/</loc>
     <changefreq>daily</changefreq>
+    <priority>1.0</priority>
   </url>
-
-  <!-- Authentication Pages -->
   <url>
-    <loc>https://cmsheartfulness.netlify.app/login</loc>
-    <lastmod>2025-09-25</lastmod>
+    <loc>https://visvascontracting.in/about</loc>
+    <changefreq>weekly</changefreq>
     <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://visvascontracting.in/projects</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://visvascontracting.in/faqs</loc>
     <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://cmsheartfulness.netlify.app/register</loc>
-    <lastmod>2025-09-25</lastmod>
-    <priority>0.9</priority>
+    <loc>https://visvascontracting.in/contact</loc>
     <changefreq>monthly</changefreq>
-  </url>
-
-  <!-- User Dashboard -->
-  <url>
-    <loc>https://cmsheartfulness.netlify.app/user</loc>
-    <lastmod>2025-09-25</lastmod>
-    <priority>0.8</priority>
-    <changefreq>weekly</changefreq>
-  </url>
-
-  <!-- Collector Dashboard -->
-  <url>
-    <loc>https://cmsheartfulness.netlify.app/collector</loc>
-    <lastmod>2025-09-25</lastmod>
-    <priority>0.8</priority>
-    <changefreq>weekly</changefreq>
-  </url>
-
-  <!-- Distributor Dashboard -->
-  <url>
-    <loc>https://cmsheartfulness.netlify.app/distributor</loc>
-    <lastmod>2025-09-25</lastmod>
-    <priority>0.8</priority>
-    <changefreq>weekly</changefreq>
-  </url>
-
-  <!-- Admin Routes -->
-  <url>
-    <loc>https://cmsheartfulness.netlify.app/admin</loc>
-    <lastmod>2025-09-25</lastmod>
     <priority>0.9</priority>
-    <changefreq>weekly</changefreq>
   </url>
-  <url>
-    <loc>https://cmsheartfulness.netlify.app/admin/report</loc>
-    <lastmod>2025-09-25</lastmod>
-    <priority>0.7</priority>
-    <changefreq>weekly</changefreq>
-  </url>
-  <url>
-    <loc>https://cmsheartfulness.netlify.app/admin/inventory</loc>
-    <lastmod>2025-09-25</lastmod>
-    <priority>0.7</priority>
-    <changefreq>weekly</changefreq>
-  </url>
-  <url>
-    <loc>https://cmsheartfulness.netlify.app/admin/user-management</loc>
-    <lastmod>2025-09-25</lastmod>
-    <priority>0.7</priority>
-    <changefreq>weekly</changefreq>
-  </url>
-  <url>
-    <loc>https://cmsheartfulness.netlify.app/admin/collector-management</loc>
-    <lastmod>2025-09-25</lastmod>
-    <priority>0.7</priority>
-    <changefreq>weekly</changefreq>
-  </url>
-  <url>
-    <loc>https://cmsheartfulness.netlify.app/admin/distributor-management</loc>
-    <lastmod>2025-09-25</lastmod>
-    <priority>0.7</priority>
-    <changefreq>weekly</changefreq>
-  </url>
-  <url>
-    <loc>https://cmsheartfulness.netlify.app/admin/collector-dashboard</loc>
-    <lastmod>2025-09-25</lastmod>
-    <priority>0.6</priority>
-    <changefreq>weekly</changefreq>
-  </url>
-  <url>
-    <loc>https://cmsheartfulness.netlify.app/admin/distributor-dashboard</loc>
-    <lastmod>2025-09-25</lastmod>
-    <priority>0.6</priority>
-    <changefreq>weekly</changefreq>
-  </url>
-
-  <!-- Super Admin Routes -->
-  <url>
-    <loc>https://cmsheartfulness.netlify.app/superadmin</loc>
-    <lastmod>2025-09-25</lastmod>
-    <priority>0.9</priority>
-    <changefreq>weekly</changefreq>
-  </url>
-  <url>
-    <loc>https://cmsheartfulness.netlify.app/superadmin/ashram-data</loc>
-    <lastmod>2025-09-25</lastmod>
-    <priority>0.7</priority>
-    <changefreq>weekly</changefreq>
-  </url>
-  <url>
-    <loc>https://cmsheartfulness.netlify.app/superadmin/tenant-management</loc>
-    <lastmod>2025-09-25</lastmod>
-    <priority>0.7</priority>
-    <changefreq>weekly</changefreq>
-  </url>
-  <url>
-    <loc>https://cmsheartfulness.netlify.app/superadmin/user-management</loc>
-    <lastmod>2025-09-25</lastmod>
-    <priority>0.7</priority>
-    <changefreq>weekly</changefreq>
-  </url>
-  <url>
-    <loc>https://cmsheartfulness.netlify.app/superadmin/reports</loc>
-    <lastmod>2025-09-25</lastmod>
-    <priority>0.7</priority>
-    <changefreq>weekly</changefreq>
-  </url>
-
-  <!-- Error Pages -->
-  <url>
-    <loc>https://cmsheartfulness.netlify.app/unauthorized</loc>
-    <lastmod>2025-09-25</lastmod>
-    <priority>0.1</priority>
-    <changefreq>yearly</changefreq>
-  </url>
-
 </urlset>
