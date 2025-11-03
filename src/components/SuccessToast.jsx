@@ -25,7 +25,7 @@ const SuccessToast = ({ message, isVisible, onClose }) => {
             damping: 30,
             duration: 0.3
           }}
-          className="fixed top-6 right-6 z-[100] max-w-sm w-full"
+          className="fixed top-4 h-auto w-[90] md:top-6 md:right-6 lg:top-6 lg:right-6 z-[100] max-w-sm w-full"
         >
           <div className="bg-green-50 border border-green-200 rounded-lg p-4 shadow-lg">
             <div className="flex items-start">
