@@ -1,0 +1,14 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://visvascontracting.in/sitemap.xml
+
+# Allow Google and Bing full crawling
+User-agent: Googlebot
+Disallow:
+
+User-agent: Bingbot
+Disallow:
+
+# Optional crawl delay for smaller bots
+Crawl-delay: 2
